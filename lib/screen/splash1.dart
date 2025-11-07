@@ -5,17 +5,32 @@ class Splash1 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return return Scaffold(
+    return Scaffold(
+      backgroundColor: Colors.deepPurple.shade100,
             appBar: AppBar(
-              title: const Text("Dashboard"),
+      backgroundColor: Colors.deepPurple.shade100,
               actions: const [],
             ),
-            body: SingleChildScrollView(
-              child: Container(
-                padding: const EdgeInsets.all(20.0),
-                child: const Column(
-                  children: [],
+            body: Center(
+              child: Column(
+                children: [
+                  SizedBox(height:100),
+                  Container(
+                  height: 200,
+                  width: 200,
+                  decoration: BoxDecoration(
+                    color:Colors.deepPurple,
+                    shape:BoxShape.circle,
+                    image : DecorationImage(
+                      image:  
+                      AssetImage(
+                        "assets/images/cadbury-logo.png"
+                        ),
+                    fit : BoxFit.cover
+                        ),
+                  ),
                 ),
+                ],
               ),
             ),
           );
