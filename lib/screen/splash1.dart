@@ -16,20 +16,27 @@ class Splash1 extends StatelessWidget {
                 children: [
                   SizedBox(height:100),
                   Container(
-                  height: 200,
-                  width: 200,
-                  decoration: BoxDecoration(
-                    color:Colors.deepPurple,
-                    shape:BoxShape.circle,
-                    image : DecorationImage(
-                      image:  
-                      AssetImage(
-                        "assets/images/cadbury-logo.png"
-                        ),
-                    fit : BoxFit.cover
-                        ),
+                    height: 200,
+                    width: 200,
+                    decoration: BoxDecoration(
+                      color:Colors.deepPurple,
+                      shape:BoxShape.circle,
+                      image : DecorationImage(
+                        image:  
+                        AssetImage(
+                          "assets/images/cadbury-logo.png"
+                          ),
+                      fit : BoxFit.cover
+                          ),
+                    ),
                   ),
-                ),
+                  SizedBox(height: 20,),
+                  Text('Halooo',
+                  style: TextStyle(
+                      fontSize: 30,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
                 ],
               ),
             ),
