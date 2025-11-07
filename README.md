@@ -1,16 +1,4 @@
-# uts_splash_screen
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img width="285" height="515" alt="cda" src="https://github.com/user-attachments/assets/5ca1a83f-42f7-4abb-b39f-e056a0300960" />
+<img width="284" height="502" alt="cda2" src="https://github.com/user-attachments/assets/a5478c1a-33a5-46b8-842e-caabeadeee9a" />
+<img width="284" height="505" alt="cda3" src="https://github.com/user-attachments/assets/9c408966-f61b-4081-881c-67b5d17032ed" />
+<img width="284" height="504" alt="cda4" src="https://github.com/user-attachments/assets/e9f39bba-5286-4fee-94d3-77898036d758" />
