@@ -58,6 +58,41 @@ class Login extends StatelessWidget {
                         ),
                       ),
                     ),
+                    SizedBox(height: 20,),
+                    TextField(
+                      keyboardType: TextInputType.text,
+                      obscureText: true,
+                      decoration: InputDecoration(
+                        labelText: 'Password',
+                        hintText: '===============',
+                        prefixIcon: 
+                        const Icon(
+                          Icons.lock_outline,
+                          size: 24.0,
+                          color: Colors.deepPurple,
+                        ),
+                        suffixIcon: 
+                        const Icon(
+                          Icons.visibility_off_outlined,
+                          size: 24.0,
+                          color: Colors.deepPurple,
+                        ),
+                        border: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(20),
+                        ),
+                        enabledBorder: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(20),
+                          borderSide: BorderSide(color: Colors.deepPurple)
+                        ),
+                        focusedBorder: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(20),
+                          borderSide: BorderSide(
+                            color: Colors.deepPurple,
+                            width: 2
+                          ),
+                        ),
+                      ),
+                    ),
                   ],
                 ),
               ),
