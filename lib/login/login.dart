@@ -165,6 +165,21 @@ class Login extends StatelessWidget {
                         ),
                       ),
                     ),
+                    SizedBox(height: 20,),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Text('Kamu Gak Punya Akun ? ', 
+                        style: TextStyle(
+                          color: Colors.grey
+                        ),
+                        ),
+                        Text('Daftar Sekarang Yuk', 
+                        style: TextStyle(
+                          color: Colors.deepPurple,
+                        ),)
+                      ],
+                    )
                   ],
                 ),
               ),
