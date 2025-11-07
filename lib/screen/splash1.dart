@@ -37,6 +37,16 @@ class Splash1 extends StatelessWidget {
                       fontWeight: FontWeight.bold,
                     ),
                   ),
+                  SizedBox(height: 10,),
+                  Text('Selamat Datang Di Cadburry',
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      fontSize: 15,
+                      fontWeight: FontWeight.normal,
+                      color: Colors.deepPurple
+                    ),
+                  ),
+                  
                 ],
               ),
             ),
